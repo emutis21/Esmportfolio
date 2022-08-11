@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/styler.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Esteban Mutis</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate  nav__icon"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user  nav__icon"></i> Sobre Mí
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt  nav__icon"></i> Habilidades
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-briefcase-alt  nav__icon"></i> Servicios
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery  nav__icon"></i> Portafolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message  nav__icon"></i> Contáctame
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <!-- home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/esteban-mutis-345055248/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/pac13/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/mutazo31" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <?xml version="1.0" standalone="no"?>
+                        <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0" mask-type="alpha">
+                                <path fill="#0F62FE" d="M55.6,-46.4C67,-30,67.7,-7.2,61.2,11.1C54.8,29.5,41.2,43.4,22.9,55.1C4.6,66.8,-18.4,76.4,-37.3,70.1C-56.2,63.8,-71.1,41.7,-76.8,17.4C-82.4,-7,-78.9,-33.5,-64.6,-50.5C-50.2,-67.5,-25.1,-74.9,-1.5,-73.7C22.1,-72.5,44.2,-62.7,55.6,-46.4Z" transform="translate(100 100)" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <image class="home__blob-img" xlink:href="assets/image/j.jpg">
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hola, soy Esteban Mutis</h1>
+                        <h3 class="home__subtitle">Desarrollador Front-end</h3>
+                        <p class="home__description">Quiero adquirir experiencia en diseño, desarrolo web, conocimiento y participar en grandes proyectos.</p>
+                        <a href="#contact" class="button button--flex">Contáctame <i class="uil uil-message button__icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Baja</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- abouuuuuut -->
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre mí</h2>
+            <span class="section__subtitle">Mi presentación</span>
+
+            <div class="about__container container grid">
+                <img src="assets/image/j.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">Desarrollador web, con mucha voluntad de aprender para poco a poco conseguir mejorar como diseñador de experiencia de usuario</p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">+1</span>
+                            <span class="about__info-name">Año<br> aprendiendo</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">+10</span>
+                            <span class="about__info-name">Proyectos<br> completados</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">+3</span>
+                            <span class="about__info-name">Certificados <br> obtenidos</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/cv/EstebanMutisCVPortfolio.pdf" class="button button--flex">
+                            Descargar CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+            <span class="section__subtitle">Mi nivel actual</span>
+
+            <div class="skills__container container grid">
+                <div class="box">
+                    <!--=============== SKILLS 1 ===============-->
+                    <div class="skills__content skills__opens">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Desarrollador font-end</h1>
+                                <span class="skills__subtitle">Más de 1 año aprendiendo</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">html</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">css</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <!--=============== SKILLS 2 ===============-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Diseñador</h1>
+                                    <span class="skills__subtitle">Más de 1 año</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Premiere</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__premiere"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__photoshop"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">Mi trayectoria</h2>
+            <span class="section__subtitle">Títulos y experiencia</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i> Educación
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i> Trabajo
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--=============== QUALIFICATION CONTENT 1 ===============-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--=============== QUALIFICATION 1 ===============-->
+                        <div class="qualification__data">
+                            <div>
+
+                                <h3 class="qualification__title">Máster en diseño de experiencia de usuario (Ui/Ux)</h3>
+                                <span class="qualification__subtitle">Coursera - Google Inc</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2022 - Actualmente
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--=============== QUALIFICATION 2 ===============-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Inglés</h3>
+                                <span class="qualification__subtitle">Colombia - Instituto</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2021 - Actualmente
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--=============== QUALIFICATION 3 ===============-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Diseño y desarrolo web</h3>
+                                <span class="qualification__subtitle">Colombia - Sena</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2021 - 2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--=============== QUALIFICATION 4 ===============-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div class="qualification__time">
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Negocios internacionales</h3>
+                                <span class="qualification__subtitle">Coursera - Universidad de Nuevo México</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2020 - 2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--=============== QUALIFICATION CONTENT 2 ===============-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--=============== QUALIFICATION 1 ===============-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Auxiliar de cocina</h3>
+                                <span class="qualification__subtitle">Colombia - Baco Foods</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2022 - Actualmente
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Serviceeessss -->
+        <section class="services section" id="services">
+            <h2 class="section__title">Servicios</h2>
+            <span class="section__subtitle">Qué puedo ofrecer</span>
+
+            <div class="services__container container grid">
+                <!-- Services 1 -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Diseñador <br> Ux/Ui</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Diseñador <br> Ux/Ui</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Crear maquetaciones web</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Desarrollar una interfaz de usuario</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Crear elementos interactivos para la experiencia de usuario</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services 2 -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">Desarrollador <br> Front-end</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Desarrollador <br> Front-end</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Mantener y optimizar sitios web</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Maquetar una página web de cero</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Portfolioooo -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portafolio</h2>
+            <span class="section__subtitle">Mis trabajo más recientes</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- portfolio 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <a href="https://pac13.github.io/maquetacion/index.html" class="portfolio__img">
+                            <img src="assets/image/proyecto1.png" alt="" class="portfolio__img">
+                        </a>
+
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Mockups</h3>
+                            <p class="portfolio__description">Este fue un prototipo de 9 páginas, la primer maquetación extensa totalmente responsive.
+                            </p>
+                            <a href="#!" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- portfolio 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <a href="https://pac13.github.io/Animations/pages/index5.html" class="portfolio__img"><img src="assets/image/proyecto2.png" alt="" class="portfolio__img"></a>
+
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Librerias</h3>
+                            <p class="portfolio__description">Este fue un proyecto en donde estuvimos trabajando con diferentes librerias de css y js, especialmente con animaciones.
+                            </p>
+                            <a href="https://pac13.github.io/Animations/pages/index5.html" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- portfolio 3 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <a href="https://pac13.github.io/PrimerJs/" class="portfolio__img">
+                            <img src="assets/image/proyecto3.png" alt="" class="portfolio__img">
+                        </a>
+
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Mi primer js</h3>
+                            <p class="portfolio__description">Aquí implimenté las primeras básicas de js, un proyecto de 5 páginas.
+                            </p>
+                            <a href="https://pac13.github.io/PrimerJs/" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- poyects in mind -->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Tienes un nuevo proyecto</h2>
+                        <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga est sint sapiente quam minima sit.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contáctame
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/image/j.jpg" class="project__img">
+                </div>
+            </div>
+        </section>
+        <!-- testimonial -->
+        <section class="testimonial section">
+            <h2 class="section__title">Trabajos</h2>
+            <span class="section__subtitle">Aquí algunos de mis proyectos</span>
+
+            <div class="testimonial__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- testimonial 1 -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/image/j.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Juan F hernández</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laboriosam. Dolores molestias esse voluptas. Laborum placeat nemo incidunt officiis nostrum, ratione est!</p>
+                    </div>
+
+                    <!-- testimonial 2 -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/image/j.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Juan F</h3>
+                                    <span class="testimonial__client">profe</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laboriosam. Dolores molestias esse voluptas. Laborum placeat nemo incidunt officiis nostrum, ratione est!</p>
+                    </div>
+
+                    <!-- testimonial 3 -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/image/j.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name"> F hernández</h3>
+                                    <span class="testimonial__client">teacher</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laboriosam. Dolores molestias esse voluptas. Laborum placeat nemo incidunt officiis nostrum, ratione est!</p>
+                    </div>
+                </div>
+
+                <!-- swiper-pagination -->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+
+        <!-- contac me -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contáctame</h2>
+            <span class="section__subtitle">Mis datos</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Teléfono</h3>
+                            <span class="contact__subtitle">+573016821783</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Correo</h3>
+                            <span class="contact__subtitle">smithmutis21@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Ubicación</h3>
+                            <span class="contact__subtitle">Colombia - Bogotá <br> Usaquén</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nombre</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Correo</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Número</label>
+                        <input type="number" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Mensaje</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+
+                        <label for="" class="contact__label"></label>
+                        <input type="submit" class="button button--flex">
+
+
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <!-- footerrr -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Esteban</h1>
+                    <span class="footer__subtitle">Desarrollador front-end</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contáctame</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Esteban Smith Mutis</p>
+        </div>
+    </footer>
+
+    <!-- scroll top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bundle js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- js -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
