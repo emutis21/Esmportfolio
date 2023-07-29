@@ -1,4 +1,8 @@
-// main show y hidden
+// loader
+window.addEventListener("load", function() {
+        document.getElementById("loader").classList.toggle("loader2")
+    })
+    // main show y hidden
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
@@ -175,10 +179,22 @@ if (selectedTheme) {
 
 // Activate / deactivate the theme manually with the button
 themeButton.addEventListener('click', () => {
-    // Add or remove the dark / icon theme
-    document.body.classList.toggle(darkTheme)
-    themeButton.classList.toggle(iconTheme)
-        // We save the theme and the current icon that the user chose
-    localStorage.setItem('selected-theme', getCurrentTheme())
-    localStorage.setItem('selected-icon', getCurrentIcon())
-})
+        // Add or remove the dark / icon theme
+        document.body.classList.toggle(darkTheme)
+        themeButton.classList.toggle(iconTheme)
+            // We save the theme and the current icon that the user chose
+        localStorage.setItem('selected-theme', getCurrentTheme())
+        localStorage.setItem('selected-icon', getCurrentIcon())
+    })
+    // nel right click----------------------------
+$(document).ready(function() {
+    //Disable full page
+    $("body").on("contextmenu", function(e) {
+        return false;
+    });
+
+    //Disable part of page
+    $("#id").on("contextmenu", function(e) {
+        return false;
+    });
+});
